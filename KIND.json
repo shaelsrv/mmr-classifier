@@ -1,0 +1,11 @@
+{
+ "kind": "classifier",
+ "engine": "https://github.com/shaelsrv/ModelMeetsReality",
+ "engine_commit": "56a33c1",
+ "tier": "proven",
+ "one_line": "sorts things others lump together",
+ "premise_shape": "Cases with <feature> belong to <class 1>, not <class 2>, because <mechanism>.",
+ "falsifier": "a case it sorted one way behaves like the other class",
+ "predict_frame": "Sort the observed cases into the model's classes and state, for each, what behaviour would show the sorting was wrong.",
+ "assess_frame": "Did any case sorted by this model behave like the other class?"
+}
